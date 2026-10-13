@@ -1,0 +1,7 @@
+/node_modules
+/.next
+.env*
+*.local.md
+/supabase
+/.claude
+/.mcp.json

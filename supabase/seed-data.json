@@ -1,0 +1,645 @@
+{
+  "products": [
+    {
+      "slug": "uno-r4-minima",
+      "category": "boards",
+      "name": "아두이노 우노 R4 미니마 (정품)",
+      "price": 26950,
+      "price_source": "devicemart",
+      "description": "Renesas RA4M1 기반으로 R3보다 메모리와 속도가 향상된 차세대 아두이노 우노 보드입니다.",
+      "specs": {
+        "MCU": "Renesas RA4M1 (Cortex-M4)",
+        "클럭": "48MHz",
+        "메모리": "256KB Flash / 32KB RAM",
+        "포트": "USB-C"
+      },
+      "image": "/images/products/uno-r4-minima.webp",
+      "stock": 103,
+      "image_credit": {
+        "author": "Arduino",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arduino_Uno_R4_Minima_perspective.webp"
+      }
+    },
+    {
+      "slug": "uno-r4-wifi",
+      "category": "boards",
+      "name": "아두이노 우노 R4 WiFi (정품)",
+      "price": 42130,
+      "price_source": "devicemart",
+      "description": "ESP32-S3 무선 모듈과 12x8 LED 매트릭스를 내장한 IoT용 우노 R4 보드입니다.",
+      "specs": {
+        "MCU": "Renesas RA4M1 + ESP32-S3",
+        "무선": "Wi-Fi / Bluetooth",
+        "부가기능": "12x8 LED 매트릭스",
+        "포트": "USB-C"
+      },
+      "image": "/images/products/uno-r4-wifi.webp",
+      "stock": 117,
+      "image_credit": {
+        "author": "Arduino",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arduino_Uno_R4_WiFi_perspective.webp"
+      }
+    },
+    {
+      "slug": "uno-r3",
+      "category": "boards",
+      "name": "아두이노 우노 R3 (정품)",
+      "price": 31900,
+      "price_source": "devicemart",
+      "description": "아두이노 입문자가 가장 많이 사용하는 ATmega328P 기반의 표준 보드입니다.",
+      "specs": {
+        "MCU": "ATmega328P",
+        "동작전압": "5V",
+        "디지털 I/O": "14핀",
+        "아날로그 입력": "6핀"
+      },
+      "image": "/images/products/uno-r3.jpg",
+      "stock": 32,
+      "image_credit": {
+        "author": "SparkFun Electronics from Boulder, USA",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arduino_Uno_-_R3.jpg"
+      }
+    },
+    {
+      "slug": "nano-every",
+      "category": "boards",
+      "name": "아두이노 나노 에브리 (정품)",
+      "price": 20790,
+      "price_source": "devicemart",
+      "description": "ATmega4809를 탑재한 작고 강력한 나노 폼팩터 보드로 브레드보드 실습에 적합합니다.",
+      "specs": {
+        "MCU": "ATmega4809",
+        "동작전압": "5V",
+        "클럭": "20MHz",
+        "크기": "45 x 18mm"
+      },
+      "image": "/images/products/nano-every.png",
+      "stock": 56,
+      "image_credit": {
+        "author": "Enirstad",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arduino_Nano_Every.png"
+      }
+    },
+    {
+      "slug": "nano-esp32",
+      "category": "boards",
+      "name": "아두이노 나노 ESP32 (정품)",
+      "price": 27390,
+      "price_source": "devicemart",
+      "description": "ESP32-S3 기반으로 Wi-Fi와 블루투스를 지원하는 IoT·마이크로파이썬용 나노 보드입니다.",
+      "specs": {
+        "MCU": "ESP32-S3 (u-blox NORA-W106)",
+        "무선": "Wi-Fi / Bluetooth LE",
+        "동작전압": "3.3V",
+        "포트": "USB-C"
+      },
+      "image": "/images/products/nano-esp32.jpg",
+      "stock": 94,
+      "image_credit": {
+        "author": "David Mellis",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arduino_Nano.jpg"
+      }
+    },
+    {
+      "slug": "mega-2560",
+      "category": "boards",
+      "name": "아두이노 메가 2560 R3 (정품)",
+      "price": 64900,
+      "price_source": "devicemart",
+      "description": "54개의 디지털 핀과 16개의 아날로그 입력을 갖춘 대형 프로젝트용 보드입니다.",
+      "specs": {
+        "MCU": "ATmega2560",
+        "디지털 I/O": "54핀",
+        "아날로그 입력": "16핀",
+        "플래시 메모리": "256KB"
+      },
+      "image": "/images/products/mega-2560.jpg",
+      "stock": 106,
+      "image_credit": {
+        "author": "Dsimic",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arduino_MEGA_2560_R3,_front_side.jpg"
+      }
+    },
+    {
+      "slug": "leonardo",
+      "category": "boards",
+      "name": "아두이노 레오나르도 (정품, 헤더 포함)",
+      "price": 38500,
+      "price_source": "devicemart",
+      "description": "USB HID 기능을 내장해 키보드·마우스로 인식시킬 수 있는 ATmega32u4 기반 보드입니다.",
+      "specs": {
+        "MCU": "ATmega32u4",
+        "디지털 I/O": "20핀",
+        "동작전압": "5V",
+        "포트": "Micro USB"
+      },
+      "image": "/images/products/leonardo.jpg",
+      "stock": 25,
+      "image_credit": {
+        "author": "Kszapsza",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arduino_Leonardo_board_(cropped).JPG"
+      }
+    },
+    {
+      "slug": "hc-sr04",
+      "category": "sensors",
+      "name": "HC-SR04 초음파 거리센서 모듈",
+      "price": 1210,
+      "price_source": "devicemart",
+      "description": "초음파를 이용해 2cm~4m 거리의 물체까지 거리를 측정하는 센서입니다.",
+      "specs": {
+        "측정거리": "2cm ~ 400cm",
+        "동작전압": "5V",
+        "측정각도": "15°"
+      },
+      "image": "/images/products/hc-sr04.jpg",
+      "stock": 177,
+      "image_credit": {
+        "author": "SparkFun",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SparkFun_HC-SR04_Ultrasonic-Sensor_13959-01a.jpg"
+      }
+    },
+    {
+      "slug": "dht11",
+      "category": "sensors",
+      "name": "DHT11 온습도 센서 모듈",
+      "price": 1760,
+      "price_source": "devicemart",
+      "description": "온도와 습도를 디지털 신호로 출력하는 저가형 입문용 센서 모듈입니다.",
+      "specs": {
+        "온도범위": "0 ~ 50℃ (±2℃)",
+        "습도범위": "20 ~ 90% RH (±5%)",
+        "동작전압": "3.3V ~ 5V",
+        "출력": "디지털 단일 버스"
+      },
+      "image": "/images/products/dht11.jpg",
+      "stock": 122,
+      "image_credit": {
+        "author": "Crackopl",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dht11_term_and_humidity_sensor.jpg"
+      }
+    },
+    {
+      "slug": "dht22",
+      "category": "sensors",
+      "name": "DHT22 (AM2302) 온습도 센서",
+      "price": 6490,
+      "price_source": "devicemart",
+      "description": "DHT11보다 넓은 측정 범위와 높은 정밀도를 가진 디지털 온습도 센서입니다.",
+      "specs": {
+        "온도범위": "-40 ~ 80℃ (±0.5℃)",
+        "습도범위": "0 ~ 100% RH (±2%)",
+        "동작전압": "3.3V ~ 5.5V"
+      },
+      "image": "/images/products/dht22.jpg",
+      "stock": 88,
+      "image_credit": {
+        "author": "Suyash Dwivedi",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:AM2302_(DHT22)_digital_temperature_and_humidity_sensor_module.jpg"
+      }
+    },
+    {
+      "slug": "pir-hc-sr501",
+      "category": "sensors",
+      "name": "HC-SR501 PIR 인체감지 센서 모듈",
+      "price": 1650,
+      "price_source": "devicemart",
+      "description": "사람의 움직임을 적외선으로 감지해 디지털 신호를 출력하는 센서 모듈입니다.",
+      "specs": {
+        "동작전압": "5V ~ 20V",
+        "감지거리": "최대 약 7m",
+        "감지각도": "약 120°",
+        "출력": "디지털 (High/Low)"
+      },
+      "image": "/images/products/pir-hc-sr501.jpg",
+      "stock": 64,
+      "image_credit": {
+        "author": "tvluke_",
+        "license": "CC0 1.0",
+        "source_url": "https://www.flickr.com/photos/169136682@N02/40640949883"
+      }
+    },
+    {
+      "slug": "soil-moisture",
+      "category": "sensors",
+      "name": "토양 수분(습도) 센서 모듈",
+      "price": 1100,
+      "price_source": "devicemart",
+      "description": "흙 속의 수분량을 측정해 화분 자동 급수 등 스마트팜 실습에 활용하는 센서입니다.",
+      "specs": {
+        "동작전압": "3.3V ~ 5V",
+        "출력": "아날로그 / 디지털",
+        "비교기": "LM393"
+      },
+      "image": "/images/products/soil-moisture.jpg",
+      "stock": 159,
+      "image_credit": {
+        "author": "SparkFun Electronics",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/41898857@N04/35799069006"
+      }
+    },
+    {
+      "slug": "mpu6050",
+      "category": "sensors",
+      "name": "MPU-6050 6축 자이로/가속도 센서 모듈 (GY-521)",
+      "price": 4950,
+      "price_source": "devicemart",
+      "description": "3축 가속도와 3축 자이로를 하나로 측정해 기울기·움직임을 감지하는 센서 모듈입니다.",
+      "specs": {
+        "칩": "MPU-6050",
+        "통신": "I2C",
+        "동작전압": "3.3V ~ 5V",
+        "측정축": "가속도 3축 + 자이로 3축"
+      },
+      "image": "/images/products/mpu6050.jpg",
+      "stock": 135,
+      "image_credit": {
+        "author": "Nevit Dilmen (talk)",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:GY-521_MPU-6050_Module_3_Axis_Gyroscope_%2B_Accelerometer_0487.jpg"
+      }
+    },
+    {
+      "slug": "cds-photoresistor",
+      "category": "sensors",
+      "name": "CdS 조도센서 (GL5537, 5mm)",
+      "price": 550,
+      "price_source": "devicemart",
+      "description": "빛의 밝기에 따라 저항값이 변하는 조도센서로 자동 조명 실습에 사용합니다.",
+      "specs": {
+        "모델": "GL5537",
+        "크기": "5파이 (5mm)",
+        "타입": "광저항 (LDR)"
+      },
+      "image": "/images/products/cds-photoresistor.jpg",
+      "stock": 24,
+      "image_credit": {
+        "author": "Nevit Dilmen (talk)",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:LDR_1480405_6_7_HDR_Enhancer_1.jpg"
+      }
+    },
+    {
+      "slug": "sg90",
+      "category": "motors",
+      "name": "SG90 9g 미니 서보모터",
+      "price": 2090,
+      "price_source": "devicemart",
+      "description": "0~180도 각도 제어가 가능한 가장 대표적인 소형 서보모터입니다.",
+      "specs": {
+        "토크": "1.8kg·cm (4.8V)",
+        "속도": "0.1초/60°",
+        "동작전압": "4.8V ~ 6V",
+        "무게": "9g"
+      },
+      "image": "/images/products/sg90.jpg",
+      "stock": 105,
+      "image_credit": {
+        "author": "Suyash Dwivedi",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tower_Pro_SG90_micro_servo_motor.jpg"
+      }
+    },
+    {
+      "slug": "stepper-28byj48",
+      "category": "motors",
+      "name": "28BYJ-48 5V 스텝모터 + ULN2003 드라이버",
+      "price": 2860,
+      "price_source": "estimate",
+      "description": "정밀한 회전 각도 제어를 배울 수 있는 5V 스텝모터와 전용 드라이버 세트입니다.",
+      "specs": {
+        "동작전압": "5V",
+        "상": "4상 5선",
+        "기어비": "1:64",
+        "드라이버": "ULN2003"
+      },
+      "image": "/images/products/stepper-28byj48.jpg",
+      "stock": 54,
+      "image_credit": {
+        "author": "Kushagra Keshari",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:28BYJ-48_unipolar_stepper_motor_with_ULN2003_driver.jpg"
+      }
+    },
+    {
+      "slug": "l298n",
+      "category": "motors",
+      "name": "L298N 듀얼 모터 드라이버 모듈",
+      "price": 2970,
+      "price_source": "devicemart",
+      "description": "DC 모터 2개 또는 스텝모터 1개를 정·역회전 제어할 수 있는 H-브리지 드라이버입니다.",
+      "specs": {
+        "칩": "L298N",
+        "모터전압": "5V ~ 35V",
+        "최대전류": "채널당 2A",
+        "채널": "2채널"
+      },
+      "image": "/images/products/l298n.jpg",
+      "stock": 138,
+      "image_credit": {
+        "author": "kenming Wang",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://www.flickr.com/photos/12882975@N00/14134165312"
+      }
+    },
+    {
+      "slug": "dc-motor-tt",
+      "category": "motors",
+      "name": "TT 기어 DC 모터 (스마트카용)",
+      "price": 9350,
+      "price_source": "devicemart",
+      "description": "RC카·스마트카 제작에 많이 쓰이는 노란색 감속 기어 DC 모터입니다.",
+      "specs": {
+        "동작전압": "3V ~ 6V",
+        "타입": "감속 기어 DC 모터",
+        "용도": "스마트카 / 로봇 바퀴 구동"
+      },
+      "image": "/images/products/dc-motor-tt.jpg",
+      "stock": 40,
+      "image_credit": {
+        "author": "SparkFun Electronics",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/41898857@N04/18235038862"
+      }
+    },
+    {
+      "slug": "lcd1602-i2c",
+      "category": "displays",
+      "name": "1602 I2C 캐릭터 LCD 모듈",
+      "price": 2750,
+      "price_source": "devicemart",
+      "description": "16x2 문자를 표시하며 I2C 모듈이 부착되어 선 4개로 간단히 연결할 수 있습니다.",
+      "specs": {
+        "표시": "16문자 x 2줄",
+        "통신": "I2C",
+        "백라이트": "블루 / 흰색 문자",
+        "동작전압": "5V"
+      },
+      "image": "/images/products/lcd1602-i2c.jpg",
+      "stock": 117,
+      "image_credit": {
+        "author": "oomlout",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:16x2_Character_LCD_Display.jpg"
+      }
+    },
+    {
+      "slug": "oled-096",
+      "category": "displays",
+      "name": "0.96인치 OLED 디스플레이 모듈 (I2C, SSD1306)",
+      "price": 10780,
+      "price_source": "devicemart",
+      "description": "백라이트 없이 선명한 128x64 해상도의 소형 OLED 디스플레이입니다.",
+      "specs": {
+        "크기": "0.96인치",
+        "해상도": "128 x 64",
+        "드라이버": "SSD1306",
+        "통신": "I2C"
+      },
+      "image": "/images/products/oled-096.jpg",
+      "stock": 103,
+      "image_credit": {
+        "author": "kasparsdambis",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/87890875@N06/36735944063"
+      }
+    },
+    {
+      "slug": "max7219-matrix",
+      "category": "displays",
+      "name": "MAX7219 8x8 도트 매트릭스 모듈",
+      "price": 2420,
+      "price_source": "devicemart",
+      "description": "MAX7219 드라이버로 64개의 LED를 3개의 핀만으로 제어하는 도트 매트릭스 모듈입니다.",
+      "specs": {
+        "드라이버": "MAX7219",
+        "LED": "8 x 8 (64개)",
+        "동작전압": "5V",
+        "통신": "SPI"
+      },
+      "image": "/images/products/max7219-matrix.jpg",
+      "stock": 43,
+      "image_credit": {
+        "author": "alvaropgl",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://www.flickr.com/photos/23715458@N02/2685950514"
+      }
+    },
+    {
+      "slug": "breadboard-830",
+      "category": "parts",
+      "name": "830홀 브레드보드 (MB-102)",
+      "price": 1540,
+      "price_source": "devicemart",
+      "description": "납땜 없이 회로를 구성할 수 있는 표준 크기 830홀 브레드보드입니다.",
+      "specs": {
+        "홀 수": "830홀",
+        "규격": "MB-102",
+        "크기": "165 x 55mm"
+      },
+      "image": "/images/products/breadboard-830.jpg",
+      "stock": 19,
+      "image_credit": {
+        "author": "oomlout",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:BREB-02_(14335226011).jpg"
+      }
+    },
+    {
+      "slug": "jumper-wires",
+      "category": "parts",
+      "name": "점퍼 와이어 M-M 40P (20cm)",
+      "price": 935,
+      "price_source": "devicemart",
+      "description": "브레드보드와 아두이노를 연결하는 수-수 타입 40가닥 컬러 점퍼 케이블입니다.",
+      "specs": {
+        "타입": "M-M (수-수)",
+        "수량": "40가닥",
+        "길이": "20cm",
+        "피치": "2.54mm"
+      },
+      "image": "/images/products/jumper-wires.jpg",
+      "stock": 189,
+      "image_credit": {
+        "author": "oomlout",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_few_Jumper_Wires.jpg"
+      }
+    },
+    {
+      "slug": "led-kit",
+      "category": "parts",
+      "name": "5mm LED 모음 (5색 x 10개)",
+      "price": 3300,
+      "price_source": "estimate",
+      "description": "빨강·초록·파랑·노랑·흰색 5mm LED를 모은 기초 실습용 세트입니다.",
+      "specs": {
+        "크기": "5mm",
+        "색상": "5색",
+        "수량": "50개",
+        "전류": "20mA"
+      },
+      "image": "/images/products/led-kit.jpg",
+      "stock": 195,
+      "image_credit": {
+        "author": "SparkFun Electronics",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/41898857@N04/11072714034"
+      }
+    },
+    {
+      "slug": "resistor-kit",
+      "category": "parts",
+      "name": "아두이노 막대저항 키트 (5종 250개)",
+      "price": 1980,
+      "price_source": "devicemart",
+      "description": "아두이노 실습에 자주 쓰는 저항값 5종을 모은 저항 키트입니다.",
+      "specs": {
+        "저항값": "220Ω, 470Ω, 1KΩ, 4.7KΩ, 10KΩ",
+        "수량": "5종 x 50개",
+        "전력": "1/4W"
+      },
+      "image": "/images/products/resistor-kit.jpg",
+      "stock": 33,
+      "image_credit": {
+        "author": "oomlout",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://www.flickr.com/photos/33504192@N00/3703849663"
+      }
+    },
+    {
+      "slug": "usb-cable",
+      "category": "parts",
+      "name": "USB A to B 케이블 (1.5m)",
+      "price": 3410,
+      "price_source": "devicemart",
+      "description": "아두이노 우노·메가 보드를 PC에 연결하는 USB 2.0 A-B 타입 케이블입니다.",
+      "specs": {
+        "타입": "USB-A (M) to USB-B (M)",
+        "규격": "USB 2.0",
+        "길이": "1.5m"
+      },
+      "image": "/images/products/usb-cable.jpg",
+      "stock": 94,
+      "image_credit": {
+        "author": "oomlout",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A-B_Usb_Cable.jpg"
+      }
+    },
+    {
+      "slug": "starter-kit",
+      "category": "kits",
+      "name": "아두이노 스타터 키트 한글판 (정품)",
+      "price": 152900,
+      "price_source": "devicemart",
+      "description": "우노 보드와 기초 부품, 15가지 프로젝트 한글 가이드북이 포함된 공식 입문 키트입니다.",
+      "specs": {
+        "구성": "Arduino UNO + 부품 일체",
+        "프로젝트": "15가지",
+        "가이드북": "한글판",
+        "모델": "K120007"
+      },
+      "image": "/images/products/starter-kit.jpg",
+      "stock": 192,
+      "image_credit": {
+        "author": "Ultra-lab",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://www.flickr.com/photos/62141688@N08/16624491097"
+      }
+    }
+  ],
+  "hero": [
+    {
+      "image": "/images/hero/hero-1.jpg",
+      "credit": {
+        "author": "TreyDanger",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arduino_%26_breadboard,_mounted.jpg"
+      }
+    },
+    {
+      "image": "/images/hero/hero-2.jpg",
+      "credit": {
+        "author": "James Bastow",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Electronics_workbench.jpg"
+      }
+    },
+    {
+      "image": "/images/hero/hero-3.jpg",
+      "credit": {
+        "author": "Lukaststanley",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arduino_Breadboard_LCD_Trial_One.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "slug": "boards",
+      "image": "/images/categories/boards.jpg",
+      "credit": {
+        "author": "Kleinesfilmröllchen",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Microcontroller_collection.jpg"
+      }
+    },
+    {
+      "slug": "sensors",
+      "image": "/images/categories/sensors.jpg",
+      "credit": {
+        "author": "Nevit Dilmen (talk)",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:HC_SR04_Ultrasonic_sensor_1480322_3_4_HDR_Enhancer.jpg"
+      }
+    },
+    {
+      "slug": "motors",
+      "image": "/images/categories/motors.jpg",
+      "credit": {
+        "author": "cibomahto",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://www.flickr.com/photos/15633330@N07/2252712425"
+      }
+    },
+    {
+      "slug": "displays",
+      "image": "/images/categories/displays.jpg",
+      "credit": {
+        "author": "Retired electrician",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:MELT_16x2_LCD_alphanumeric_display_02(DXO).jpg"
+      }
+    },
+    {
+      "slug": "parts",
+      "image": "/images/categories/parts.jpg",
+      "credit": {
+        "author": "Windell Oskay (oskay)",
+        "license": "CC BY 2.0",
+        "source_url": "https://www.flickr.com/photos/17425845@N00/437341128"
+      }
+    },
+    {
+      "slug": "kits",
+      "image": "/images/categories/kits.jpg",
+      "credit": {
+        "author": "oomlout",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:ARDX_-_Arduino_Experimentation_Kit_(Inside_the_box).jpg"
+      }
+    }
+  ]
+}
