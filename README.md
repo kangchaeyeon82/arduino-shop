@@ -11,6 +11,11 @@ npm run dev        # http://localhost:3000
 
 `.env.local`에 Supabase URL / publishable key / 토스 테스트 클라이언트 키가 들어 있습니다. (`.env.example` 참고)
 
+### 배포
+
+GitHub `main` 브랜치에 push하면 Vercel이 자동으로 배포합니다 → https://arduino-shop-three.vercel.app
+(다른 브랜치에 push하면 미리보기(Preview) 주소가 따로 만들어집니다.)
+
 ### 테스트 계정
 
 관리자(admin@example.com)와 일반 회원(user@example.com) 계정이 있습니다.
